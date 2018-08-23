@@ -1,0 +1,10 @@
+<!--数据库名shana_weather,数据库版本为1，将实体类添加到映射列表中-->
+<litepal>
+    <dbname value="shana_weather" />
+    <version value="1"/>
+    <list>
+        <mapping class="com.example.xialiangzhe.shanaweather.db.Province"/>
+        <mapping class="com.example.xialiangzhe.shanaweather.db.Country"/>
+        <mapping class="com.example.xialiangzhe.shanaweather.db.City"/>
+    </list>
+</litepal>
