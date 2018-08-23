@@ -1,8 +1,9 @@
 package com.example.xialiangzhe.shanaweather.db;
 
+import org.litepal.crud.DataSupport;
 import org.litepal.crud.LitePalSupport;
 
-public class Province extends LitePalSupport {
+public class Province extends DataSupport {
     private int id;
     private String provinceName;
     private int provinceCode;
@@ -22,7 +23,7 @@ public class Province extends LitePalSupport {
     }
 
     public int getProvinceCode(){
-        return getProvinceCode();
+        return provinceCode;
     }
 
     public void setProvinceCode(int provinceCode) {

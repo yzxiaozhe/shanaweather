@@ -1,11 +1,12 @@
 package com.example.xialiangzhe.shanaweather.db;
 
+import org.litepal.crud.DataSupport;
 import org.litepal.crud.LitePalSupport;
 
-public class City extends LitePalSupport {
+public class City extends DataSupport {
     private int id;
     private String cityName;
-    private int cityNode;
+    private int cityCode;
     private int provinceId;
 
     public int getId() {
@@ -24,12 +25,12 @@ public class City extends LitePalSupport {
         this.cityName = cityName;
     }
 
-    public int getCityNode() {
-        return cityNode;
+    public int getCityCode() {
+        return cityCode;
     }
 
-    public void setCityNode(int cityNode) {
-        this.cityNode = cityNode;
+    public void setCityCode(int cityNode) {
+        this.cityCode = cityNode;
     }
 
     public int getProvinceId() {
