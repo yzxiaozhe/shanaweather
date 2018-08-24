@@ -50,6 +50,7 @@ public class WeatherActivity extends AppCompatActivity {
     public DrawerLayout drawerLayout;
     private Button navButton;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -77,6 +78,7 @@ public class WeatherActivity extends AppCompatActivity {
         swipeRefreshLayout.setColorSchemeResources(R.color.colorPrimary);
         drawerLayout=(DrawerLayout)findViewById(R.id.drawer_layout);
         navButton=(Button)findViewById(R.id.nav_button);
+
 
 
 

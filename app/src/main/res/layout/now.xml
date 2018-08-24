@@ -7,6 +7,7 @@
     android:layout_margin="15dp"
  >
 
+
     <TextView
         android:id="@+id/degree_text"
         android:layout_width="wrap_content"
@@ -20,9 +21,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end"
-        android:textColor="#fff"
+        android:textColor="#8000"
         android:textSize="20sp"
         />
+
 
 
 </LinearLayout>
